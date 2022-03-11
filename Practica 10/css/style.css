@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav
+{
+    background-color: rgb(56, 55, 55);
+}
+
+.thead-dark
+{
+    background-color: rgb(56, 55, 55);
+}
+
+th{
+    color: beige;
+}
+
+article
+{
+    background:linear-gradient(150deg,#da0024,#eb9bc3,#eb03b8);
+    background-size: 400%  300%;
+    animation: BgGradient 5s ease infinite;
+}
+
+@keyframes BgGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+footer
+{
+    background-color: rgba(235, 65, 65, 0.2);
+}
+
+.tema
+{
+    color:black;
+    font-weight: 800;
+}
+.text-dark
+{
+    color:black;
+    font-weight: 800;
+}
+
+
+ 
+
+
